@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mood Detector</title>
+  <script defer src="https://unpkg.com/face-api.js"></script>
+  <script defer src="script.js"></script>
+
+  <style>
+    body {
+      text-align: center;
+      background: #111;
+      color: white;
+      font-family: Arial;
+    }
+
+    video {
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    #mood {
+      font-size: 24px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Face Mood Detector</h1>
+  <video id="video" width="300" height="220" autoplay></video>
+  <div id="mood">Loading...</div>
+</body>
+</html>
